@@ -1,26 +1,54 @@
 <!DOCTYPE html>
 <html>
   <head>
+      <title>Title</title>
       <style>
-      h1.ex1 {
+        body{
+        }
+        .ex1 {
+            width: auto;
             border: 2px;
             outline-style: solid;
             outline-color: green;
-            margin: 30px;
+            padding: 0px;
+          } 
+        .parent-div{
+          width: auto;
+          border: 5px solid red;
+          margin: 35px;
         }
-         h1.ex2 {
-            border: 2px;
-            outline-style: solid;
-            outline-color: green;
-            padding: 30px;
+
+        .child-div{
+          width: auto;
+          outline-style: solid;
+         outline-color: green;
+          margin: 30px;
+          padding: 0px;
+
         }
+        .child-div2{
+          width: auto;
+          border: dashed blue;
+          margin: 30px;
+
+        }
+        
           </style>
-    <title>Title</title>
-    <link rel="verkefni2" href="verkefni2.css">
   </head>
   <body>
+      <div class="ex1">
+          <h1>Box modelið</h1></div>
+        <div class="parent-div">
+            <div class="child-div" >
+            <h1><font color=red>Box Model class</font></h1>
+        </div>
     </div>
-        <h1 class="ex1">Box modelið.</p>
-    <h1 class="ex1"> <font color=red> Box modelið.</p>
+    
+    <div class="parent-div">
+      <div class=" child-div2">
+        <h1><font color=blue>Box Model 2</font></h1>
+      </div>
+    </div>
+
   </body>
 </html>
