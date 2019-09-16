@@ -1,1 +1,27 @@
-
+  
+h1 {color:red;}
+h2 {color:blue;}
+h3 {color:green;}
+h4 {color:yellow;}
+h5 {color:purple;}
+h6 {color:brown;}
+p {color:orange;}
+body {margin: 800px;}
+li {color:brown;}
+strong {color:cyan;}
+body {
+ background-image: url("https://orig00.deviantart.net/1928/f/2013/002/e/5/rubix_by_retsamys-d5q4qb6.gif");
+ background-color: #cccccc;
+}
+a:hover { 
+  background-color: yellow;
+}
+a:link {
+  color: red;
+}
+a:visited {
+  color: green;
+}
+a:active {
+  color: blue;
+}
