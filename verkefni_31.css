@@ -1,7 +1,44 @@
-.header {
-    border: 1px solid black;
+html, body {
+    height: 100vh
 }
-.nav {
-    border: 1px solid black;
-    padding: 20px;
+body{
+    width: 90%;
+    margin: 0% auto;
+}
+.wrapper{
+    display: grid;
+    margin: 0;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 20% 10% auto 10%;
+    grid-template-areas: 
+    "header header header"
+    "nav    nav    nav"
+    "aside   main   article"
+    "footer footer footer"
+}
+header {
+   grid-area: header;
+   border: solid black 1px;
+}
+nav {
+    grid-area: nav;
+    border: solid black 1px;
+}aside {
+    grid-area: aside;
+    border: solid black 1px;
+}
+main {
+    grid-area: main;
+    border: solid black 1px;
+}
+article {
+    grid-area: article;
+    border: solid black 1px;
+}
+footer {
+    grid-area: footer;
+    border: solid black 1px;
+}
+blockquote{
+    border: solid black 1px;
 }
