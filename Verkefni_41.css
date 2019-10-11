@@ -9,10 +9,34 @@ body{
 
 header{
 width: 100%;
+margin: 70px;
 }
 .divheaderL{
   float: left;
   width: 67%;
+}
+.bakg{
+  font-family: 'Big Shoulders Display', cursive;
+  color: white;
+  font-size: 70px;
+  font-weight: 100;
+}
+.haegrit{
+  font-family: 'Big Shoulders Display', cursive;
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+}
+a:active{
+  color: white;
+}
+
+a:hover{
+  color: red;
+}
+a:link{
+  text-decoration: none;
+  color: white;
 }
 .divheaderR{
   float: left;
@@ -28,6 +52,7 @@ blockquote{
 }
 footer{
   width: 100%;
+  margin: 70px;
 }
 .nav1{
   float: left;
@@ -43,4 +68,7 @@ footer{
 }
 .divtext{
   margin: 70px;
+}
+.tvoniu{
+  text-align: bottom;
 }
