@@ -1,12 +1,9 @@
-html, body {
+body {
   height: 100vh;
   width: 100%;
   margin: 0 auto;
-}
-body{
   background-color: rgb(80, 80, 255);
 }
-
 header{
 width: 100%;
 margin: 70px;
@@ -23,9 +20,12 @@ margin: 70px;
 }
 .haegrit{
   font-family: 'Big Shoulders Display', cursive;
-  color: white;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 100;
+  margin: 55px;
+}
+.haegrit a{
+    color: white;
 }
 a:active{
   color: white;
@@ -39,8 +39,12 @@ a:link{
   color: white;
 }
 .divheaderR{
-  float: left;
+  float: right;
   width: 33%;
+}
+.grar{
+    color: rgb(145, 145, 145);
+    text-align: right;
 }
 section{
   background-image: linear-gradient(burlywood, white);
@@ -52,7 +56,13 @@ blockquote{
 }
 footer{
   width: 100%;
-  margin: 70px;
+  margin: 80px;
+}
+dl{
+    color: white;
+}
+h4{
+    color: white;
 }
 .nav1{
   float: left;
@@ -71,4 +81,13 @@ footer{
 }
 .tvoniu{
   text-align: bottom;
+}
+li a{
+    color: white;
+}
+.navdiv{
+    margin: 70px;
+}
+footer ul{
+    list-style-type: none;
 }
