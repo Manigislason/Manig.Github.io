@@ -1,0 +1,46 @@
+html, body {
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+}
+body{
+  background-color: rgb(80, 80, 255);
+}
+
+header{
+width: 100%;
+}
+.divheaderL{
+  float: left;
+  width: 67%;
+}
+.divheaderR{
+  float: left;
+  width: 33%;
+}
+section{
+  background-image: linear-gradient(burlywood, white);
+  float: left;
+  width: 100%;
+}
+blockquote{
+  background-color: rgba(248, 248, 248, 0.5);
+}
+footer{
+  width: 100%;
+}
+.nav1{
+  float: left;
+  width: 34%;
+}
+.nav2{
+  float: left;
+  width: 33%;
+}
+.nav3{
+  float: left;
+  width: 33%;
+}
+.divtext{
+  margin: 70px;
+}
