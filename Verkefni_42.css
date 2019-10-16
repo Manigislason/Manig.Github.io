@@ -8,6 +8,45 @@ body {
   width: 100%;
   margin: 70px;
   }
+  dl {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+    text-align: center;
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+  .bakg{
+    font-family: 'Big Shoulders Display', cursive;
+    color: white;
+    font-size: 70px;
+    font-weight: 100;
+  }
   .divheaderL{
     float: left;
     width: 67%;
@@ -36,11 +75,26 @@ body {
         text-decoration: none;
         color: white;
       }
-  }
   .grar{
     color: rgb(145, 145, 145);
     text-align: right;
 }
   .navdiv{
     margin: 70px;
+}
+footer{
+  float: left;
+  width: 100%;
+  margin: 70px;
+}
+.navbar{
+  display: inline;
+}
+.container{
+    background-image: linear-gradient(burlywood, white);
+    float: left;
+    width: 100%;
+}
+.innermenu{
+  margin: 20px;
 }
