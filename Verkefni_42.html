@@ -4,34 +4,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <title>Verkefni 4.2 Efnisyfirlit og tenglar</title>
-    <!-- veljið leturgerð af http://fonts.google.com-->
+    <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="Verkefni_42.css">
   </head>
   <body>
-    <header>
-      <div>
-        <h1>
-          Efnisyfirlit
-        </h1>
-      </div>
-      <div>
-        <p class="verkefni">Verkefni 4.2</p>
-        <nav class="topnav">
-          <a href=" " title="bakgrunnar">Bakgrunnar</a>
-          <a href=" " title="Efnisyfirlit">Efnisyfirlit</a>
-        </nav>
-      </div>
-    </header>
+      <nav>
+          <div class="navdiv">
+          <h4 class="grar">Verkefni 4.1</h4>
+          </div>
+          </nav>
+            <header>
+          <div class="divheaderL">
+            <h1 class="bakg">
+              EFNISYFIRLIT
+            </h1>
+          </div>
+          <div class="divheaderR">
+            <nav class="haegrit">
+              <a href=" " title=" ">BAKGRUNNAR</a>
+              <a href=" " title=" ">EFNISYFIRLIT</a>
+            </nav>
+          </div>
+        </header>
     <div class="">
       <section class="container">
         <nav class="innermenu">
-        <dl> 
-        <li><a href="#">Læknisskoðun</a></li>
-        <li><a href="#">Óskirnar 3</a></li>
-        <li><a href="#">Adam og ...</a></li>
-        <li><a href="#">Alnæmisfaraldurinn</a></li>
-        <li><a href="#">Jólakveðja</a></li>
-        <li><a href="#">Gef oss í dag vort daglegt ... </a></li>
+        <dl class="navbarinn"> 
+        <li><a href="#Læknisskoðun">Læknisskoðun</a></li>
+        <li><a href="#Óskirnar">Óskirnar 3</a></li>
+        <li><a href="#Adam">Adam og ...</a></li>
+        <li><a href="#Alnæmi">Alnæmisfaraldurinn</a></li>
+        <li><a href="#Jólakveðja">Jólakveðja</a></li>
+        <li><a href="#Gefoss">Gef oss í dag vort daglegt ... </a></li>
         </dl>
         </nav> 
         <h1>Innri og ytri tenglar</h1>
@@ -42,7 +48,7 @@
         <p>Hvernig á að setja einn tengil á vefsíðuna sem er með fastri staðsetningu neðst á skjánum og  vísar <br> "efst á síðu"?</p>
       </section>
     </div>
-    <div class="" id="">
+    <div class="" id="Læknisskoðun">
       <section class="container" >
           <h3>Læknisskoðun</h3>
           <p>90 ára gamall maður var í árlegri læknisskoðun og læknirinn spurði hann hvernig hann hefði það.
@@ -77,7 +83,7 @@
         </div>
       </section>
     </div>
-    <div class="" id="Adam">
+    <div class="container" id="Adam">
       <section class="container" >
           <h3 class=" ">Adam og ....</h3>
           <P>Dag einn sagði Adam við Guð: „Drottinn, ég er með vandamál.“
@@ -97,7 +103,7 @@
           <p><a href=" ">Efst á síðu</a></p>
       </section>
     </div>
-    <div class="" id="Alnæmi">
+    <div class="container" id="Alnæmi">
       <section class="container">
           <h3 class=" ">Alnæmisfaraldurinn</h3>
             <p>Nýlega héldu Barack Obama og Vladimir Putin fund um útbreiðslu alnæmis og annarra kynsjúkdóma í löndum sínum. Putin spurði Obama hvernig stjórnvöld í Bandaríkjunum reyndu að koma í veg fyrir alnæmi.
@@ -117,7 +123,7 @@
           <p><a href=" ">Efst á síðu</a></p>
       </section>
     </div>
-    <div class="" id="Jólakveðja">
+    <div class="container" id="Jólakveðja">
       <section class="container">
           <h3 class=" ">Jólakveðja</h3>
           <p>Það var aðfangadagskvöld jóla og þjófur var búinn að brjótast inn í hús eitt. Skyndilega heyrir hann rödd sem segir: „Jesús sér þig.“
@@ -138,7 +144,7 @@
             </p><p><a href=" ">Efst á síðu</a></p>
         </section>
       </div>
-      <div class="" id="Gefoss">
+      <div class="container" id="Gefoss">
         <section class="container">
           <h3 class=" ">Gef oss í dag vort daglegt ... </h3>
           <p>Dag einn var bankað á hurðina á skrifstofu páfans. Inn kom auglýsingastjóri sem vildi gera samning við páfann. Hann settist og kynnti sig: „Ég er frá Kentucky fried chicken. Við viljum fá þig til að gera auglýsingu fyrir okkur. Allt sem þú þarft að segja er að fá kirkjuna til að breyta línunni í faðirvorinu úr Gef oss í dag vort daglegt brauð í Gef oss í dag vorn daglega kjúkling.“
@@ -152,44 +158,36 @@
         </section>
       </div>
       <footer>
-          <nav>
+          <nav class="nav1">
             <h4>DL listi </h4>
-            <dl><!--Description list, nafn tölvupóstur og áfangi-->
-              <dt>Nafn:</dt>
-                <dd><!--nafn hér--></dd>
-              <!--tölvupóstur-->
-              <!--áfangi-->
+              <dt>Nafn</dt>
+            <dd>Máni Gíslason</dd>
+          <dt>Tölvupóstur</dt>
+            <dd>Manigislason@gmail.com</dd>
+          <dt>Áfangi og braut</dt>
+            <dd>Tölvubraut 1. Önn</dd>
             </dl>
   
           </nav>
-          <nav>
+          <nav class="nav2">
             <h4>Innri tenglar <em>(relative links)</em></h4>
-            <ul><!-- inner links -- hér þarf að aðlaga slóðir að eigin verkefnum -->
-              <li>Verkefni 1</li>
-              <li>Verkefni 2</li>
-              <li>Verkefni 3.1</li>
-              <li>Verkefni 3.2</li>
+            <ul>
+              <li><a href="https://manigislason.github.io/home.html " target="_blank">Verkefni 1</a></li>
+          <li><a href="https://manigislason.github.io/home.html " target="_blank">Verkefni 2</a></li>
+          <li><a href="https://manigislason.github.io/home.html " target="_blank">Verkefni 3.1</a></li>
+          <li><a href="https://manigislason.github.io/home.html " target="_blank">Verkefni 3.2</a></li>
             </ul>
           </nav>
-          <nav>
+          <nav class="nav3">
             <h4>Ytri tenglar <em>(absolute links)</em></h4>
             <ul> <!-- Absolute links "target _blank" opnar nýjan glugga í vafranum !aðeins notað þegar vísað er út úr eigin vef-->
-              <li> 
-                <a href="https://vefgrunnur.github.io/bjargir.html" target="_blank" title="Vefgrunnur">Gagnlegar grunnslóðir</a>        
-              </li>  
-              <li>
-                tengill hér sem vísar á mikilvæga vefsíðu 
-              </li>
-              <li>
-                tengill hér sem vísar á mikilvæga vefsíðu 
-              </li>
-              <li>
-                  tengill hér sem vísar á mikilvæga vefsíðu 
-              </li>
+              <li> <a href="http://learn.shayhowe.com/html-css/setting-backgrounds-and-gradients/#css3-background-properties" target="_blank" title="">Aðgengishönnun og</a></li>
+              <li> <a href="http://learn.shayhowe.com/html-css/setting-backgrounds-and-gradients/#css3-background-properties" target="_blank" title="">notendaupplýsingar (UX)</a></li>
+              <li><a href="https://www.w3schools.com/cssref/pr_background-image.asp" target="_blank" title="">Setting Backgrounds</a></li>
+              <li><a href="https://www.w3schools.com/html/html_lists.asp" target="_blank" title="">Creating lists</a></li>
           </nav>
         </footer>
-      <p class="copy">&copy; 2019 ---</p>
     <!--tengill með absolute staðsetningu -->
-    <a href=" " class="topbutt" title="Efst á síðu"> &#8679; </a>
+    <a href=" " class="topbutt" title="Efst á síðu"></a>
   </body>
 </html>
