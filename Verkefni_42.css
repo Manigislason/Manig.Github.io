@@ -17,16 +17,16 @@ body {
     text-align: center;
   }
   
-  li {
+  .navbarinn li {
     float: left;
     border-right:1px solid #bbb;
   }
   
-  li:last-child {
+  .navbarinn li:last-child {
     border-right: none;
   }
   
-  li a {
+  .navbarinn li a {
     display: block;
     color: white;
     text-align: center;
@@ -126,4 +126,19 @@ footer ul{
   color: rgb(39, 118, 145);
   outline: none;
   cursor: pointer;
+}
+.nav1 {
+  color: white;
+}
+.nav2 li a {
+  color: white;
+}
+.nav2 {
+  color: white;
+}
+.nav3 {
+  color: white;
+}
+.nav3 li a {
+  color: white;
 }
