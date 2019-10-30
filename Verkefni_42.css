@@ -142,3 +142,27 @@ footer ul{
 .nav3 li a {
   color: white;
 }
+.fontt1{
+  font-family: 'Big Shoulders Display', cursive;
+  color: gray;
+  font-size: 40px;
+  font-weight: 100;
+}
+.fontt2{
+  font-family: 'Big Shoulders Display', cursive;
+  color: gray;
+  font-size: 40px;
+  font-weight: 100;
+}
+.fontt3{
+  font-family: 'Big Shoulders Display', cursive;
+  color: gray;
+  font-size: 40px;
+  font-weight: 100;
+}
+.container{
+  height: 100vh;
+}
+#Læknisskoðun{
+  text-align: center;
+}
