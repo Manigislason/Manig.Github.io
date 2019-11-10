@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!----------------------------------->
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Verkefni_5.css">
+    <!----------------------------------->
+</head>
+<body>
+
+    <ul class="nav">
+        <!----------------------------------->
+        <div class="logo">
+        <img width="100" height="100" src="img/octocat.svg" alt="">
+        </div>
+        <!----------------------------------->
+        <li><a href="#">UM MIG</a></li>
+        <li><a href="#">ÁHUGAMÁL</a></li>
+        <li><a href="#">VERKEFNI</a></li>
+        <!----------------------------------->
+     </ul>
+
+    <div class="banner">
+        <img class="banner-image" src="img/1.jpg">
+    </div>
+    <!---------------------------------------->
+    <div class="heading">Services</div>
+    <div class="service">
+      <div class="service1">
+        <h1>Myndir</h1>
+        <a href="#"><img class="image" src="img/web.png"></a>
+        <p>Hérna setti ég inn Myndir sem ég valdi, þessar myndir eru af Space X fyrirtækinu sem er í eigu elon musk sem ég fylgist rosa mikið með</p>
+      </div>
+    </div>
+</body>
+</html>
