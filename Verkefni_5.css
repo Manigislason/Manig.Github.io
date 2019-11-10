@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;   
+    font-family: Arial, serif;
+}
+
+.nav{
+    color: #000000;
+    list-style: none;
+    text-align: right;
+    padding: 20px 0px 20px 0px;
+}
+
+.nav > li {
+    display: inline-block;
+    padding-right: 70px;
+    font-size: 15px;
+}
+
+.nav > li > a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.nav > li > a:hover {
+    color: #595959;
+}
+
+.logo {
+    color: #000000;
+    float: left;
+    padding-left: 25px;
+}
+
+.banner {
+    width: 100%;
+    display: block;
+}
+
+.banner > .banner-image {
+    width: 100%;
+    display: block;
+}
+
+.service {
+    align-content: center;
+    text-align: center;
+    
+}
+
+.service1 {
+    width: 298px;
+    border: 1px solid #c1c1c1;
+    margin: 20px 10px;
+    padding: 0 5px;
+    float: left;
+}
+
+.service1 > p {
+    font-size: 14px;
+    color: #636363;
+    max-width: 250px;
+}
+
