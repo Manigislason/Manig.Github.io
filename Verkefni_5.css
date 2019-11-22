@@ -96,8 +96,34 @@ h1 {
  }
 
  .BOX {
-     outline-style: solid;
-     outline-color: #000000;
      text-align: center;
-     margin: 15px 0 0 0;
+     outline-color: #000000;
+     outline-style: dashed;
  }
+
+.container {
+    display: block;
+    margin: 0 auto;
+    width: 1333px;
+}
+
+.image1 {
+    max-width: 666px;
+    margin: 15px 0 0 0;
+}
+
+.BOX2 {
+    outline-color: #000000;
+    outline-style: dashed;
+    text-align: center;
+    align-items: center;
+}
+
+.BOX2 > p {
+    text-decoration-color: #595959;
+    margin: 20px;
+}
+.BOX2 > h1 {
+    margin: 20px;
+    text-decoration-color: #595959;
+}
