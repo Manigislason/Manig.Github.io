@@ -12,7 +12,7 @@ body {
 .block {
     width: 100px;
     height: 100px;
-    background: url(img/regular-brick-block.png) 100%;
+    background: url(regular-brick-block.png) 100%;
     position: absolute;
     bottom: 350px;
 }
@@ -34,7 +34,7 @@ body {
 #questionMarkBlock {
     width: 100px;
     height: 100px;
-    background: url(img/question-mark-block.gif);
+    background: url(question-mark-block.gif);
     background-size: 100px 100px;
     position: absolute;
     bottom: 350px;
@@ -48,7 +48,7 @@ body {
 .bushes {
     width: 508px;
     height:79px;
-    background: url(img/bushes.png) 100%;
+    background: url(bushes.png) 100%;
     position: absolute;
     bottom: 120px;
     z-index: 0;
@@ -59,7 +59,7 @@ body {
 .hill {
     width: 400px;
     height: 400px;
-    background: url(img/hill.png) no-repeat;
+    background: url(hill.png) no-repeat;
     background-size: 400px;
     position: fixed;
     bottom: -120px;
@@ -74,14 +74,14 @@ body {
 #ground {
     position: absolute;
     bottom: 0;
-    background: url(img/ground-brick.jpg);
+    background: url(ground-brick.jpg);
     width: 100%;
     height:120px;
 }
 #cloudLarge {
     width: 400px;
     height:400px;
-    background: url(img/cloud-large.png) no-repeat;
+    background: url(cloud-large.png) no-repeat;
     background-size: 400px;
     position: fixed;
     bottom: 420px;
@@ -94,7 +94,7 @@ body {
 #cloudSmall {
     width: 300px;
     height:300px;
-    background: url(img/cloud-small.png) no-repeat;
+    background: url(cloud-small.png) no-repeat;
     background-size: 300px;
     position: fixed;
     bottom: 420px;
@@ -253,7 +253,7 @@ body {
 #superMarioRunning {
     position: fixed;
     bottom: 120px;
-    background: url(img/super-mario-running.gif) no-repeat;
+    background: url(super-mario-running.gif) no-repeat;
     background-size: 200px;
     width: 100%;
     height: 200px;
@@ -282,7 +282,7 @@ body {
     margin: -10px;
 }
 #scoreCoin {
-    background: url(img/score-coin.png) 100% no-repeat;
+    background: url(score-coin.png) 100% no-repeat;
     width: 40px;
     height: 15px;
     display: inline-block;
