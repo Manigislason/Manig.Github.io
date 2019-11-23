@@ -1,0 +1,331 @@
+
+@font-face {
+    font-family: marioFont;
+    src: url(img/emulogic.ttf);
+}
+
+body {
+    background: cornflowerblue;
+    font-family: "marioFont", sans-serif;
+    margin: 0;
+}
+.block {
+    width: 100px;
+    height: 100px;
+    background: url(img/regular-brick-block.png) 100%;
+    position: absolute;
+    bottom: 350px;
+}
+#blockOne {
+    left: 250px;
+}
+#blockOne a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+#blockTwo {
+    left: 350px;
+}
+#blockThree {
+    left: 550px;
+}
+#questionMarkBlock {
+    width: 100px;
+    height: 100px;
+    background: url(img/question-mark-block.gif);
+    background-size: 100px 100px;
+    position: absolute;
+    bottom: 350px;
+    left: 450px;
+}
+#questionMarkBlock input {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.bushes {
+    width: 508px;
+    height:79px;
+    background: url(img/bushes.png) 100%;
+    position: absolute;
+    bottom: 120px;
+    z-index: 0;
+}
+#bushesTwo {
+    left: 300px;
+}
+.hill {
+    width: 400px;
+    height: 400px;
+    background: url(img/hill.png) no-repeat;
+    background-size: 400px;
+    position: fixed;
+    bottom: -120px;
+    left: 800px;
+    z-index: 0;
+}
+#hillTwo {
+    left: 1075px !important;
+    background-size: 300px !important;
+    bottom: -180px !important;
+}
+#ground {
+    position: absolute;
+    bottom: 0;
+    background: url(img/ground-brick.jpg);
+    width: 100%;
+    height:120px;
+}
+#cloudLarge {
+    width: 400px;
+    height:400px;
+    background: url(img/cloud-large.png) no-repeat;
+    background-size: 400px;
+    position: fixed;
+    bottom: 420px;
+    left: 100px;
+    z-index: -1000;
+    -webkit-animation: move-large-cloud 25s linear infinite;
+    animation: move-large-cloud 25s linear infinite;
+    -o-animation: move-large-cloud 25s linear infinite;
+}
+#cloudSmall {
+    width: 300px;
+    height:300px;
+    background: url(img/cloud-small.png) no-repeat;
+    background-size: 300px;
+    position: fixed;
+    bottom: 420px;
+    left: 1300px;
+    z-index: -900;
+
+    -webkit-animation: move-small-cloud 45s linear infinite;
+    animation: move-small-cloud 45s linear infinite;
+    -o-animation: move-small-cloud 45s linear infinite;
+}
+@-moz-keyframes move-large-cloud {
+    0%   { -moz-transform: translateX(500%); }
+    100% { -moz-transform: translateX(-175); }
+}
+@-webkit-keyframes move-large-cloud {
+    0%   { -webkit-transform: translateX(500%); }
+    100% { -webkit-transform: translateX(-175%); }
+}
+@-moz-keyframes move-small-cloud {
+    0%   { -moz-transform: translateX(200%); }
+    100% { -moz-transform: translateX(-500); }
+}
+@-webkit-keyframes move-small-cloud {
+    0%   { -webkit-transform: translateX(200%); }
+    100% { -webkit-transform: translateX(-500%); }
+}
+#topTube {
+    position: fixed;
+    height: 100px;
+    width: 200px;
+    bottom: 300px;
+    background: #00ab13;
+    left: 1500px;
+    border: 7px solid #005e04;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    border-radius: 5%;
+}
+.topTubeDivs {
+    height: 100px;
+    float: left;
+}
+#topTube > #topOne {
+    width: 30px;
+    background: #00820e;
+}
+#topTube > #topTwo {
+    width: 10px;
+    background: #00a112;
+}
+#topTube > #topThree {
+    width: 5px;
+    background: #00820e;
+}
+#topTube > #topFour {
+    width: 70px;
+    background: #00b114;
+}
+#topTube > #topFive {
+    width: 35px;
+    background: #00d818;
+}
+#topTube > #topSix {
+    width: 10px;
+    background: #00b114;
+}
+#topTube > #topSeven {
+    width: 20px;
+    background: #00d818;
+}
+#topTube > #topEight {
+    width: 20px;
+    background: #00c616;
+}
+#bottomTube {
+    position: fixed;
+    height: 173px;
+    width: 143px;
+    bottom: 120px;
+    background: #00ab13;
+    left: 1525px;
+    border: 7px solid #005e04;
+    border-left: 14px solid #005e04;
+}
+.bottomTubeDivs {
+    height: 173px;
+    float: left;
+}
+#bottomTube > #bottomOne {
+    width: 30px;
+    background: #00820e;
+}
+#bottomTube > #bottomTwo {
+    width: 10px;
+    background: #00a112;
+}
+#bottomTube > #bottomThree {
+    width: 5px;
+    background: #00820e;
+}
+#bottomTube > #bottomFour {
+    width: 35px;
+    background: #00b114;
+}
+#bottomTube > #bottomFive {
+    width: 25px;
+    background: #00d818;
+}
+#bottomTube > #bottomSix {
+    width: 10px;
+    background: #00b114;
+}
+#bottomTube > #bottomSeven {
+    width: 20px;
+    background: #00d818;
+}
+#questionMarkCoin {
+    display: none;
+}
+#questionMarkBlock:active > #questionMarkCoin {
+    display: block;
+    position: absolute;
+    bottom: 50px;
+    left: 25px;
+    background: url(img/coin.gif) no-repeat;
+    background-size: 50px;
+    width: 100%;
+    height: 120px;
+
+    -webkit-animation: coin-move 0.25s linear infinite;
+    animation: coin-move 0.25s linear infinite;
+    -o-animation: coin-move 0.25s linear infinite;
+}
+@-moz-keyframes coin-move {
+    0%   { -moz-transform: translateY(0%); }
+    100% { -moz-transform: translateY(-50%); }
+}
+@-webkit-keyframes coin-move {
+    0%   { -webkit-transform: translateY(0%); }
+    100% { -webkit-transform: translateY(-50%); }
+}
+#questionMarkBlock:active,
+.block:active {
+    -webkit-animation: block-move 0.1s linear infinite;
+    animation: block-move 0.1s linear infinite;
+    -o-animation: block-move 0.1s linear infinite;
+}
+@-moz-keyframes block-move {
+    0%   { -moz-transform: translateY(0%); }
+    100% { -moz-transform: translateY(-10%); }
+}
+@-webkit-keyframes block-move {
+    0%   { -webkit-transform: translateY(0%); }
+    100% { -webkit-transform: translateY(-10%); }
+}
+#superMarioRunning {
+    position: fixed;
+    bottom: 120px;
+    background: url(img/super-mario-running.gif) no-repeat;
+    background-size: 200px;
+    width: 100%;
+    height: 200px;
+    z-index: 99;
+    -webkit-animation: run-mario 5s linear infinite;
+    animation: run-mario 5s linear infinite;
+    -o-animation: run-mario 5s linear infinite;
+}
+@-moz-keyframes run-mario {
+    0%   { left: -300px; bottom: 116px; }
+    60%  { left: 1200px; bottom: 116px; }
+    75%  { left: 1440px; bottom: 500px; }
+    100% { left: 1920px; bottom: 300px; }
+}
+@-webkit-keyframes run-mario {
+    0%   { left: -300px; bottom: 116px; }
+    60%  { left: 1200px; bottom: 116px; }
+    75%  { left: 1440px; bottom: 500px; }
+    100% { left: 1920px; bottom: 300px; }
+}
+#superMarioScore {
+    color: white;
+    position: fixed;
+    bottom: 50%;
+    left: 500px;
+    margin: -10px;
+}
+#scoreCoin {
+    background: url(img/score-coin.png) 100% no-repeat;
+    width: 40px;
+    height: 15px;
+    display: inline-block;
+    margin-right: -10px;
+    margin-left: -20px;
+}
+#topRightInfo {
+    color: white;
+    position: fixed;
+    bottom: 93%;
+    right: 20px;
+    text-align: right;
+}
+#topRightInfo > a:hover{
+    color: rgb(255, 0, 0);
+    position: fixed;
+    bottom: 93%;
+    right: 20px;
+    text-align: right;
+}
+#topRightInfo > a{
+    color: rgb(255, 255, 255);
+    position: fixed;
+    bottom: 93%;
+    right: 20px;
+    text-align: right;
+}
+#superMarioScore > p,
+#topRightInfo > p {
+    margin-bottom: -2px;
+    margin-top: 0;
+}
+.button {
+    position: fixed;
+    bottom: 50%;
+    right: 20px;
+    background-color: burlywood;
+    border: 10px solid brown;
+    color: black;
+    padding: 20px 34px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    }
